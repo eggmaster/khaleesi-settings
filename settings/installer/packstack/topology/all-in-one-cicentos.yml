@@ -24,9 +24,7 @@ provisioner:
                     data: &data_interface
                         label: eth1
                         config_params: &data_interface_params
-                            bootproto: static
-                            ipaddr: 10.0.0.1
-                            netmask: 255.255.255.0
+                            bootproto: dhcp
                             nm_controlled: "no"
                             type: ethernet
                             onboot: yes
