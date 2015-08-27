@@ -15,5 +15,9 @@ provisioner:
       '22':
         id: 'not-used-for-baremetal'
         remote_user: 'not-used-for-baremetal'
+    rhel:
+      '7.1':
+        id: 'not-used-for-baremetal'
+        remote_user: 'not-used-for-baremetal'
 
 base_dir: !env WORKSPACE
