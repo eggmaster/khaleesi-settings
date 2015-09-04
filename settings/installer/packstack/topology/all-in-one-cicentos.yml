@@ -16,7 +16,7 @@ provisioner:
                     end: 340
     nodes:
         controller: &controller
-            name: '{{ tmp.node_prefix }}controller'
+            name: 'controller'
             hostname:
             rebuild: no
             network: &network_params
