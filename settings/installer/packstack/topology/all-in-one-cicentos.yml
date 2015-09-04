@@ -36,3 +36,12 @@ provisioner:
                 - network
                 - compute
                 - openstack_nodes
+
+
+product:
+    full_version: kilo
+    version:
+        major: 7
+        minor: 0
+        code_name: kilo
+
