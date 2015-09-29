@@ -36,7 +36,11 @@ provisioner:
                 - network
                 - compute
                 - openstack_nodes
-
+    images:
+        centos:
+            "7.1":
+                id: not_used
+                remote_user: not_used
 
 product:
     full_version: kilo
